@@ -1,0 +1,13 @@
+body {
+  font-family: 'Actor', sans-serif;
+  background-color: var(--bg-col); 
+  color: var(--text-col);
+}
+
+h1 {
+  color: var(--header-col);
+}
+
+a {
+  color: var(--link-col);
+}

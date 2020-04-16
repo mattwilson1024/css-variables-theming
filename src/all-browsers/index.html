@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Theming with CSS variables: All Browsers</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Actor&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Theming with CSS variables: All Browsers</h1>
+  <p>This page is styled using CSS variables, click the buttons below to change the theme.</p>
+
+  <button id="lightThemeButton">Light</button>
+  <button id="darkThemeButton">Dark</button>
+  
+  <h2>All browsers supported (via ponyfill)</h2>
+  <p>This example uses <a href="https://github.com/jhildenbiddle/css-vars-ponyfill" target="_blank">css-vars-ponyfill</a>, meaning that it even works in IE11!</p>
+  <p>The element styling can still be defined by referencing CSS variables as usual, but the actual values for these variables are defined and applied in code. css-vars-ponyfill takes care of doing extra fun and games if you're on a legacy browser.</p>
+
+  <h2>Don't need to support IE?</h2>
+  <p>Check out the <a href="../modern-only/index.html">modern browsers only example</a> for a simpler/cleaner approach.</p>
+
+  <script src="./script.js"></script>
+</body>
+</html>

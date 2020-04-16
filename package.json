@@ -1,0 +1,16 @@
+{
+  "name": "css-variables-theming",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Matt Wilson",
+  "scripts": {
+    "start": "parcel src/all-browsers/index.html",
+    "build": "parcel build src/all-browsers/index.html"
+  },
+  "dependencies": {
+    "css-vars-ponyfill": "^2.2.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}

@@ -1,0 +1,27 @@
+:root .light-theme {
+  --bg-col: #EFEFEF;
+  --text-col: #444;
+  --header-col: #092299;
+  --link-col: #004AEF;
+}
+
+:root .dark-theme {
+  --bg-col: #494949;
+  --text-col: #F1F1F1;
+  --header-col: #FF5500;
+  --link-col: #00BEEF;
+}
+
+body {
+  font-family: 'Actor', sans-serif;
+  background-color: var(--bg-col); 
+  color: var(--text-col);
+}
+
+h1 {
+  color: var(--header-col);
+}
+
+a {
+  color: var(--link-col);
+}
